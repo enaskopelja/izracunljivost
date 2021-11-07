@@ -1,7 +1,7 @@
 import argparse
 
 
-def main(*, alphabet: str):
+def main(*, alphabet: str, **kwargs):
     word = input("Type the word you wish to encode: ").strip()
     try:
         codings = [alphabet.index(c) + 1 for c in word]

@@ -15,7 +15,7 @@ def _divide(number, basis):
         yield 0
 
 
-def main(*, alphabet: str):
+def main(*, alphabet: str, **kwargs):
     alphabet = "ε" + alphabet
     try:
         code = int(input("Type the number you wish to decode: ").strip())
