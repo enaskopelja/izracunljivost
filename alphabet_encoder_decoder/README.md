@@ -19,8 +19,13 @@
 
 # Enkoder:
 
-`python3 encode.py --alphabet ${ALPHABET}`
+`encode.py [-h] --alphabet ALPHABET`
 
 # Dekoder:
 
-`python3 decode.py --alphabet ${ALPHABET}`
+`decode.py [-h] --alphabet ALPHABET`
+
+# Proizvoljno
+
+`main.py [-h] --action {encode,decode} --alphabet ALPHABET`
+
