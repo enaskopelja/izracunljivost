@@ -3,7 +3,6 @@ import argparse
 
 def main(*, alphabet: str):
     word = input("Type the word you wish to encode: ").strip()
-    alphabet = sorted(alphabet)
     try:
         codings = [alphabet.index(c) + 1 for c in word]
     except ValueError as e:
@@ -16,8 +15,6 @@ if __name__ == '__main__':
 
     parser.add_argument(
         '--alphabet',
-        help='Alphabet',
-        dest="alphabet",
         required=True
     )
 
