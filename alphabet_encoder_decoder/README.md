@@ -25,7 +25,7 @@
 
 `decode.py [-h] --alphabet ALPHABET`
 
-# Proizvoljno
+# Proizvoljno:
 
 `main.py [-h] --action {encode,decode} --alphabet ALPHABET`
 
