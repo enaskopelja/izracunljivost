@@ -1,4 +1,4 @@
-# Alphabet encoder/decoder
+# Σ* encoder/decoder
 
 ## Zadatak
 > U po volji odabranom programskom jeziku napišite enkoder (ako Vam je JMBAG//10 paran) odnosno dekoder (JMBAG//10 neparan) skupa Σ*.
